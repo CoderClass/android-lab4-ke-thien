@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <item android:title="@string/south_park">
-
-        <item android:title="South Park" />
-        <item android:title="Family Guy" />
-
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="South Park"
+                    android:icon="@drawable/ic_south_park"
+                    android:id="@+id/south_park_item"/>
+                <item android:title="Family Guy"
+                    android:icon="@drawable/ic_family_guy"
+                    android:id="@+id/family_guy_item"/>
+            </group>
+        </menu>
     </item>
-    <item android:title="@string/family_guy">
 
-        <item android:title="@string/simpsons" />
-        <item android:title="@string/futurama" />
+
+    <item android:title="@string/family_guy">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item android:title="@string/simpsons"
+                    android:icon="@drawable/ic_simpsons"
+                    android:id="@+id/simpsons_item"/>
+                <item android:title="@string/futurama"
+                    android:icon="@drawable/ic_futurama"
+                    android:id="@+id/futurama_item"/>
+            </group>
+        </menu>
+
 
     </item>
 
