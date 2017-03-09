@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/south_park">
+
+        <item android:title="South Park" />
+        <item android:title="Family Guy" />
+
+    </item>
+    <item android:title="@string/family_guy">
+
+        <item android:title="@string/simpsons" />
+        <item android:title="@string/futurama" />
+
+    </item>
+
+</menu>
